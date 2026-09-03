@@ -1,0 +1,17 @@
+MONGODB_URI=mongodb+srv://lgdkam0_db_user:kunashe07@lgd.ilkoxkv.mongodb.net/anime_rpg?retryWrites=true&w=majority
+
+
+cd ~/waifu-rpg-bot
+echo "MONGODB_URI='YOUR_MONGODB_URI'" > .env
+
+
+
+
+echo 'MONGODB_URI="mongodb+srv://lgdkam0_db_user:kunashe07@lgd.ilkoxkv.mongodb.net/anime_rpg?retryWrites=true&w=majority"' > .env
+node seed.js
+
+echo MONGODB_URI="mongodb+srv://lgdkam0_db_user:kunashe07@lgd.ilkoxkv.mongodb.net/anime_rpg?retryWrites=true&w=majority" > .env
+
+
+git config --global user.email "lgdkam0@gmail.com"
+git config --global user.name "kam-design"
